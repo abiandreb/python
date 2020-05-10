@@ -39,3 +39,11 @@ class Bus(Vehicle):
 
     def wheels(self):
         return 6
+
+
+my_bus = Bus('Icarus', 'red', 'Bus')
+print(my_bus.max_pass_passengers())
+
+my_truck = Truck('Volvo', 'blue', 'Truck')
+print(my_truck.wheels())
+
