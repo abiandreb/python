@@ -1,7 +1,6 @@
-import register
+import register_module as r
 import users
 
 user_db = []
 
-a = register()
-
+a = r.Registry

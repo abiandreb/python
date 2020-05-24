@@ -68,4 +68,5 @@ class Register:
 
 
 class Authenticate(Register):
+    pass
 
