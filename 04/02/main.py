@@ -1,6 +1,6 @@
 import register_module as r
 import validation as val
-import user_db as u
+import user as u
 
 user_db = [{'login': 'admin', 'password': 'admin1', 'role': 'a'}]
 
