@@ -14,12 +14,12 @@ class Complex:
         return Complex(self.real - other.real, self.imag - other.imag)
 
     def __mul__(self, other):
-        return Complex(self.real*other.real - self.imag*other.imag, self.imag*other.real + self.real*other.imag)
+        return Complex(self.real * other.real - self.imag * other.imag, self.imag*other.real + self.real * other.imag)
 
     def __div__(self, other):
         s_real, s_imag, o_real, o_imag = self.real, self.imag, other.real, other.imag
         r = float(o_real ** 2 + o_imag ** 2)
-        return Complex((s_real*o_real + s_imag * o_imag) / r, (s_imag * o_real - s_real * o_imag) / r)
+        return Complex((s_real * o_real + s_imag * o_imag) / r, (s_imag * o_real - s_real * o_imag) / r)
 
     def __abs__(self):
         return math.sqrt(self.real ** 2 + self.imag ** 2)
