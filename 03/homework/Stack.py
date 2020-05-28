@@ -2,7 +2,7 @@ class Stack:
     def __init__(self):
         self.items = []
 
-    def isEmpty(self):
+    def empty(self):
         return self.items == []
 
     def push(self, item):
@@ -20,4 +20,4 @@ s.push('test')
 s.push('test2')
 print(s.pop())
 print(s.size())
-print(s.isEmpty())
+print(s.empty())
